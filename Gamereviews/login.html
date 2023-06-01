@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/login.css">
+    <link rel="icon" href="assets/Icone.png">
+    <title>Login</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+        <a href="login.html"><p>Login</p></a>
+    </nav>
+    <form action="">
+        <fieldset class="field1">
+            <label for="nome">Nome de Usuário: <input type="text" placeholder="nome de usuário" id="nome" required></label>
+            <label for="email">Email: <input type="email" placeholder="email" id="email" required></label>
+            <label for="senha">Senha: <input type="password" placeholder="senha" id="senha" required></label>
+        </fieldset>
+        <fieldset class="field2">
+            <label for="termos" class="termos"><input type="checkbox" id="termos" required>Eu aceito os <a href="">termos e condições</a></label>
+            <h4>Você recomendaria esse site para outras pessoas:</h4>
+            <div class="radio">
+                <label for="sim"><input type="radio" name="recomendação" id="sim">Sim</label>
+                <label for="não"><input type="radio" name="recomendação" id="não">Não</label>
+            </div>
+            <input type="submit" id="submit">
+        </fieldset>
+    </form>
+    <footer>
+        <div>
+          <img src="/assets/Intagram.png" alt="Instagram Symbol">
+          <img src="/assets/Twitter.png" alt="Twitter Symbol">
+          <img src="/assets/Whatsapp.png" alt="Whatsapp Symbol" class="whats">
+        </div>
+        <p id="Copyright">Copyright © 2023 | All rights reserved by Arthur, João Pedro.</p>
+    </footer>
+</body>
+</html>
